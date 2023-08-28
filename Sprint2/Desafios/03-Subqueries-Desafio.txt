@@ -1,0 +1,19 @@
+-- EXERCÍCIOS ########################################################################
+
+-- (Exercício 1) Crie uma coluna calculada com o número de visitas realizadas por cada
+-- cliente da tabela sales.customers
+
+with num_visitas as (
+	select
+		cliente.customer_id,
+		count(visit_page_date) as visitas
+	from sales.customers as cliente
+	left join sales.funnel as fun2
+		on cliente.customer_id = fun2.customer_id
+	group by cliente.customer_id
+)
+
+select *
+from sales.customers as cliente
+left join num_visitas
+	on cliente.customer_id = num_visitas.customer_id

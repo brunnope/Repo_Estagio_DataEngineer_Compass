@@ -1,0 +1,46 @@
+-- EXERCÍCIOS ########################################################################
+
+-- (Exemplo 1) Identifique qual é o status profissional mais frequente nos clientes 
+-- que compraram automóveis no site
+
+select 
+	cus.professional_status,
+	count (fun.paid_date) as contagem
+from sales.funnel as fun
+left join sales.customers as cus
+	on fun.customer_id = cus.customer_id
+group by cus.professional_status
+order by contagem desc
+
+-- (Exemplo 2) Identifique qual é o gênero mais frequente nos clientes que compraram
+-- automóveis no site. Obs: Utilizar a tabela temp_tables.ibge_genders
+select * from temp_tables.ibge_genders limit 10
+
+select
+	ibge.gender,
+	count(funel.paid_date) as contagem
+from sales.funnel as funel
+left join sales.customers as cliente
+	on funel.customer_id = cliente.customer_id
+left join temp_tables.ibge_genders as ibge
+	on lower(cliente.first_name) = ibge.first_name
+group by ibge.gender
+order by contagem desc
+
+
+-- (Exemplo 3) Identifique de quais regiões são os clientes que mais visitam o site
+-- Obs: Utilizar a tabela temp_tables.regions
+select * from sales.customers limit 10
+select * from temp_tables.regions limit 10
+
+select 
+	reg.region,
+	count (funel.visit_page_date) as contagem
+from sales.funnel as funel
+left join sales.customers as cliente
+	on funel.customer_id = cliente.customer_id
+left join temp_tables.regions as reg
+	on lower(cliente.city) = lower(reg.city) and
+	lower(cliente.state) = lower(reg.state)
+group by reg.region
+order by contagem desc
