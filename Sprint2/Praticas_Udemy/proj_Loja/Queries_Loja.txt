@@ -1,0 +1,106 @@
+E8: código e o nome do vendedor com maior número de vendas (contagem)
+
+SELECT
+	tbvendedor.cdvdd,
+    tbvendedor.nmvdd
+from tbvendedor
+left join tbvendas
+on tbvendedor.cdvdd = tbvendas.cdvdd
+group by tbvendas.cdvdd
+order by count(*) DESC
+limit 1
+
+E9: código e nome do produto mais vendido entre as datas de 2014-02-03 até 2018-02-02
+
+SELECT
+	tbestoqueproduto.cdpro,
+    tbvendas.nmpro
+from tbestoqueproduto
+left join tbvendas
+	on tbestoqueproduto.cdpro = tbvendas.cdpro
+where (tbvendas.dtven BETWEEN '2014-02-03' and '2018-02-02') and tbvendas.status = 'Concluído'
+group by tbestoqueproduto.cdpro
+limit 1
+
+E10: calcule a comissão de todos os vendedores, considerando todas as vendas armazenadas na base de dados 
+
+SELECT
+	tbvendedor.nmvdd as vendedor,
+    sum(tbvendas.qtd * tbvendas.vrunt) as "valor_total_vendas",
+    round(sum(cast(tbvendas.qtd as decimal) * tbvendas.vrunt * tbvendedor.perccomissao) /100 , 2) as comissao
+from tbvendas
+left join tbvendedor
+on tbvendas.cdvdd = tbvendedor.cdvdd
+where tbvendas.status = 'Concluído'
+group by tbvendedor.cdvdd
+order by comissao desc
+
+E11: código e nome cliente com maior gasto na loja
+
+SELECT
+	cdcli,
+    nmcli,
+    sum(qtd * vrunt) as gasto
+from tbvendas
+where status = 'Concluído'
+group by cdcli
+order by gasto desc
+limit 1
+
+E12: código, nome e data de nascimento dos dependentes do vendedor com menor valor total bruto em vendas (não sendo zero)
+
+SELECT
+	tbdependente.cddep,
+    tbdependente.nmdep,
+    tbdependente.dtnasc,
+    sum(tbvendas.qtd * tbvendas.vrunt) as valor_total_vendas
+
+from tbdependente
+left join tbvendas
+	on tbdependente.cdvdd = tbvendas.cdvdd
+where tbvendas.status = 'Concluído'
+group by tbdependente.cdvdd
+order by  sum(qtd * vrunt)
+limit 1
+
+E13: listar os 10 produtos menos vendidos pelos canais de E-Commerce ou Matriz
+
+select	tbvendas.cdpro,
+	tbvendas.nmcanalvendas,
+    tbvendas.nmpro,
+    sum(tbvendas.qtd) as quantidade_vendas
+from tbestoqueproduto
+left join tbvendas
+	on tbestoqueproduto.cdpro = tbvendas.cdpro
+where tbvendas.status = 'Concluído'
+group by tbestoqueproduto.cdpro,tbvendas.nmcanalvendas
+order by quantidade_vendas
+limit 10
+
+E14: gasto médio por estado da federação
+
+SELECT
+	estado,
+    round(avg( qtd * vrunt), 2)as gastomedio
+from tbvendas
+where status = 'Concluído'
+GROUP by estado
+order by gastomedio desc
+
+E15: códigos das vendas identificadas como deletadas
+
+SELECT cdven
+from tbvendas
+where deletado <> 0
+
+E16: quantidade média vendida de cada produto agrupado por estado da federação
+
+SELECT
+	estado,
+    nmpro,
+    round(avg(qtd), 4) as quantidade_media
+from tbvendas
+where status = 'Concluído'
+group by estado, nmpro
+order by estado, nmpro
+

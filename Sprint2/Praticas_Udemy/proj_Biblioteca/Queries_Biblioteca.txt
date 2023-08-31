@@ -1,0 +1,82 @@
+E1: todos os livros publicados após 2014
+
+select cod,titulo,autor,editora,valor,publicacao,edicao,idioma
+from livro
+where publicacao > '2015-01-01'
+order by cod
+
+E2: 10 livros mais caros 
+
+select titulo,valor
+from livro
+order by valor desc
+limit 10
+
+E3: 5 editoras com mais livros na biblioteca
+
+select
+    count(editora) as quantidade,
+    editora.nome,
+    endereco.estado,
+    endereco.cidade
+from livro
+left join editora
+    on livro.editora = editora.codEditora
+left join endereco
+    on editora.endereco = endereco.codEndereco
+group by editora
+order by quantidade desc
+
+
+E4: quantidade de livros publicada por cada autor
+
+select
+    count(livro.autor) as quantidade,
+    autor.nome,
+    autor.codAutor,
+    autor.nascimento
+from autor
+left join livro
+    on autor.codAutor = livro.autor
+group by autor.codAutor
+order by autor.nome
+
+E5: nome dos autores que publicaram livros através de editoras NÃO situadas na região sul do Brasil
+
+SELECT
+autor.nome
+from autor
+left join livro
+    on autor.codAutor = livro.autor
+left join editora
+    on livro.editora = editora.codEditora
+left join endereco
+    on editora.endereco = endereco.codEndereco
+where endereco.estado <> 'RIO GRANDE DO SUL' AND endereco.estado <> 'PARANÁ' and endereco.pais = 'Brasil'
+group by autor.nome
+order by autor.nome
+
+E6: autor com maior número de livros publicados
+
+SELECT
+	autor.codautor,
+    autor.nome,
+    count(*) as quantidade_publicacoes
+from autor
+left join livro
+	on autor.codautor = livro.autor
+WHERE autor.codautor <> 10
+group by livro.autor
+order by quantidade_publicacoes DESC
+LIMIT 1
+
+E7: nome dos autores com nenhuma publicação
+
+select
+	autor.nome
+from autor
+left join livro
+on autor.codautor = livro.autor
+GROUP by nome
+HAVING COUNT(livro.autor) < 1
+order by nome
