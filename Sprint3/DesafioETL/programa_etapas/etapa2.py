@@ -14,4 +14,4 @@ for i in lista_dados:
     soma += float(i[-1])
     cont+=1
 
-print(f'Media: US${soma/cont:.2f}')
+print(f'Media: US${soma/cont:.2f} milhões')
