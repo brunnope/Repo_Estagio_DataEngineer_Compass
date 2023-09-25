@@ -3,5 +3,7 @@
 <p> Sim. No geral conseguimos reutilizar containers parados através do comado: docker start id ou nome do container escolhido para reiniciar. Porém, dependendo da configuração feita na inicialização do container, como se inicializado com --rm, isso não pode ser possível. </p>
 
 <p>Como exemplo prático, podemos inicializar um container parado da questão anteirior do carguru:
+ <br>
  docker start -i teste
+ <br>
  Onde teste é o nome escolhido para meu container</p>
