@@ -12,28 +12,30 @@
 
 ## PYTHON FUNCIONAL
 
-<p>Em grande parte do curso serviu como revisão, pelo fato de já ter tido a oportunidade na faculdade. Porém, mesmo em assuntos que já dominava, aprendi uma ou outra possiblidade e comandos que facilitavam e melhoravam o código. Principalmente a parte de "Comprehension", a qual desconhecia em Python. Gostei bastante de aprender a manipular arquivos - haja vista são mais que importantes em qualquer área -, gerenciar pacotes e principalmente de POO, pois pude usar conhecimentos de Java e adaptá-los para Python. </p>
+<p>Nesse curso, pude aprender mais um paradigma em Pyhton, o qual, trabalha com funções e busca ser imutável produzindo o mesmo resultado para as mesmas entradas, evitando gerar e lidar com efeitos colaterais.
+<br>
+Ademais, pude conhecer e aprender novas funções importantíssimas em python como: <strong>lambda</strong>, <strong>map</strong> e <strong>filter</strong>. Essas, foram essenciais nas resoluções da [__seção 2__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_2), listados a seguir:</p>
 
-<p>No geral, gostei dos assuntos selecionados para essa Sprint e do curso também. Porém, assim como pude ler e concordar com outros comentários do curso, acho que o professor poderia usar exemplos mais práticos que facilitassem o entendimento do assunto passado.</p>
-
+* [__E1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_1.py)
+* [__E2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_2.py) 
+* [__E3__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_3.py) 
+* [__E4__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_4.py)
+* [__E5__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_5.py)
+* [__E6__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_6.py)
+* [__E7__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_7.py)
 
 ## DOCKER PARA DESENVOLVEDORES(COM DOCKER SWARM E KUBERNETES)
 
-<p>Mesmo passando raiva com a plataforma da Udemy na correção dos códigos, praticar aquilo que foi aprendido se tornou fundamental. Exercícios simples, mas importantes de serem feitos. Assim sendo, segue em anexo o link das resoluções de cada seção:</p>
+<p>O curso de Docker foi algo totalmente novo para mim, porém, foi muito proveitoso em todos os sentidos. Aprender sobre uma tecnologia revolucionária que tem transformado a forma como desenvolvemos, empacotamos e implantamos aplicativos com certeza será de grande proveito.
+<br>
+Assim como em python, os assuntos trabalhados foram cruciais para a resolução da [__seção 3__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3), onde estão listadas a seguir:</p>
 
-* [__seção3__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint3/Exercicios/secao3)
-* [__seção4__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint3/Exercicios/secao4)
-* [__seção6__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint3/Exercicios/secao6)
+* [__Tarefa 1__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3/tarefa_1)
+* [__Tarefa 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_3/tarefa_2/resposta.md)
+* [__Tarefa 3__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3/tarefa_3)
 
 ### DesafioETL
 
-<p>Em especial, o Desafio se mostrou com um nível de dificuldade maior, mas muito legal de ser feito, pelo fato de trabalhar com leitura de arquivo e simular um "mini banco de dados" para buscar informações somente com os comandos em Python. Nesse sentido, segue o link da resposta de cada etapa e em seguida o código feito:</p>
-
-* [__etapa1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/etapa-1.txt) - [resolução](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/programa_etapas/etapa1.py)
-* [__etapa2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/etapa-2.txt) - [resolução](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/programa_etapas/etapa2.py)
-* [__etapa3__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/etapa-3.txt) - [resolução](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/programa_etapas/etapa3.py)
-* [__etapa4__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/etapa-4.txt) - [resolução](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/programa_etapas/etapa4.py)
-* [__etapa5__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/etapa-5.txt) - [resolução](https://github.com/brunnope/Repo_Compass/blob/main/Sprint3/DesafioETL/programa_etapas/etapa5.py)
 
 ## ESTATÍSTICA DESCRITIVA COM PYTHON
 
