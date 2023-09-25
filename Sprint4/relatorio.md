@@ -14,7 +14,7 @@
 
 <p>Nesse curso, pude aprender mais um paradigma em Pyhton, o qual, trabalha com funções e busca ser imutável produzindo o mesmo resultado para as mesmas entradas, evitando gerar e lidar com efeitos colaterais.
 <br>
-Ademais, pude conhecer e aprender novas funções importantíssimas em python como: <strong>lambda</strong>, <strong>map</strong> e <strong>filter</strong>. Essas, foram essenciais nas resoluções da [__seção 2__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_2), listados a seguir:</p>
+Ademais, pude conhecer e aprender novas funções importantíssimas em python como: <strong>lambda</strong>, <strong>map</strong> e <strong>filter</strong>. Essas, foram essenciais nas resoluções da <a href=https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_2><strong>seção 2</strong></a>, listados a seguir:</p>
 
 * [__E1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_1.py)
 * [__E2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_2/ex_2.py) 
@@ -28,7 +28,7 @@ Ademais, pude conhecer e aprender novas funções importantíssimas em python co
 
 <p>O curso de Docker foi algo totalmente novo para mim, porém, foi muito proveitoso em todos os sentidos. Aprender sobre uma tecnologia revolucionária que tem transformado a forma como desenvolvemos, empacotamos e implantamos aplicativos com certeza será de grande proveito.
 <br>
-Assim como em python, os assuntos trabalhados foram cruciais para a resolução da [__seção 3__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3), onde estão listadas a seguir:</p>
+Assim como em python, os assuntos trabalhados foram cruciais para a resolução da <a href=https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3><strong>seção 3</strong></a>, onde estão listadas a seguir:</p>
 
 * [__Tarefa 1__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3/tarefa_1)
 * [__Tarefa 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_3/tarefa_2/resposta.md)
