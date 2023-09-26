@@ -34,10 +34,12 @@ Assim como em python, os assuntos trabalhados foram cruciais para a resolução 
 * [__Tarefa 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint4/exercicios/secao_3/tarefa_2/resposta.md)
 * [__Tarefa 3__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3/tarefa_3)
 
-### DesafioETL
-
 
 ## ESTATÍSTICA DESCRITIVA COM PYTHON
 
+<p>Nesse curso de estatística descritiva com python passamos desde o conceito do ramo, que seria a interpretação de dados para descrever características essenciais de um conjunto de dados permitindo que seja facilmente compreensível, até em como aplicá-la com a linguagem. Nesse sentido, vimos: representanção de gráficos com a lib Matplotlib e como configurá-los; medidas centrais e de dispersão e como calculá-las com o numpy e finalizamos vendo aplicações reais.
+<br>
+No geral, foi bom explorar mais o python e ter a oportunidade de conhecer mais bibliotecas que em algum momento podem ser bem aproveitadas no nosso ramo.
+</p>
 
 <hr>
