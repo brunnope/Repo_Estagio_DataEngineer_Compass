@@ -120,8 +120,46 @@
 
 <p>Um ponto em destaque foi a forma da apresentação dessa solução. Onde enfatizaram que deve ser focada no cliente e realizando sempre perguntas abertas para entender mais perfeitamente o caso que será migrado.</p>
 
+## EXAM PREP: AWS CERTIFIELD CLOUD PRACTITIONER
 
+<p>Este curso teve como foco nos permitir realizar uma auto-avaliação sobre nosso domínio em alguns tópicos para a certificação da AWS. Foi abordado os conceitos da nuvem, segurança e conformidade, tecnologia AWS e finalizando com cobrança e preço. Em cada tópico desse foi dividio em vários assuntos com uma questão de avaliação para cada - parte muito interessante para começar a se familiarizar com as questões da prova. Em sequência segue o que foi trabalhado em cada um e seus principais assuntos juntamente daquilo que é necessário saber para a prova.</p>
 
+### Cloud Concepts
+
+* <p><b>Benefícios</b> - conseguir definir os serviços, zonas de disponibilidade, manuseio da segurança, da criação de users e grupos... Saber explicar a proposta de valor - explicar como a AWS pode melhorar a empresa ao migrar seus serviços para a nuvem - e como usá-los - como a escalabilidade horizontal, por exemplo.</p>
+
+* <p><b>Aspectos Econômicos</b> - entender como a AWS afeta os custos e de propriedade da organização e quais serviços diminuirão esses valores. Conseguir entender a relação de custo total(TCO) e seus subtipos como: despesas operacionais(OpEX); despesas de capital(CapEX) e custos de mão de obra em on-premisses.</p>
+
+* <p><b>Princípios de Design e Arquitetura da Nuvem</b> - entender os quatro princípios da arquitetura da AWS que seria:</p>
+  * <p>design à prova de falhas - como arquitetar um serviço para se adequar as falhas possíveis</p>
+  * <p>componentes desacoplados - como deixar o serviço independente</p>
+  * <p>elasticidade - como isso facilita os serviços</p>
+  * <p>pense paralelo - como dividir um trabalho em formas mais simples</p>
+
+### Security and Compliance
+
+* <p><b>Modelo de Responsabilidade Compartilhada</b> - saber quem é o responsável pelo o que na AWS. Que cliente tem a responsabilidade pela segurança "na" nuvem e a AWS "da" nuvem.</p>
+* <p><b>Conceitos de Conformidade e Segurança</b> - saber se determinado serviço está em conformidade com outro e conhecer as plataformas para isso como a <em>AWS Artifact</em> e <em>AWS CloudTrial</em></p>
+* <p><b>Capacidades de Gerenciamento de Acesso</b> - conhecer as capacidades de acesso no gerenciamento e quais serviços fazem isso como o <em>AWS Identity and Access Management(IAM)</em></p>
+* <p><b>Recursos para Suporte de Segurança</b> - conhecer onde podemos achar o suporte para conhecer os serviços de segurança. Como exemplo tem o <em>AWS Marketplace</em> - achar softwares de terceiro - e <em>AWS Knowledge</em> - obter informações sobre segurança com AWS</p>
+
+### Technology
+
+* <p><b>Métodos de Implantação e Operação</b> - entender as formas de se comunicar com a AWS - seja pela <em>APIs</em> e <em>SDKs</em> ou <em>AWS Comand Line</em> e outros - e entender os pontos positivos e negativos de cada um </p>
+* <p><b>Infraestrutura Global da AWS</b> - saber sobre as regiões, zonas de dispobilidade e locais de borda da AWS</p>
+* <p><b>Serviços Básicos</b> - entender cada categoria dos serviços oferecidos</p>
+* <p><b>Recursos para Suporte de Tecnologia</b> - conhecer as formas que podemos aprender melhor sobre esse tópico. Podendo ser pela documentação da AWS, suporte específico, AWS Partner Network ou AWS Trusted Advisor</p>
+
+### Billing and Pricing
+
+* <p><b>Modelos de Preço da AWS</b> - conseguir comparar os difentes modelos de preço e saber identificar quais casos de uso e cenário de modelo de instância é mais adequado</p>
+* <p><b>Estrutura de Contas com AWS</b> - reconhecer as diferentes estruturas de conta em relação à cobrança e preços da AWS</p>
+* <p><b>Recursos Disponíveis para o Suporte de Cobrança</b> - conhecer as maneiras de obter suporte ou informações de cobrança e serviços para isso como o <em>AWS Cost Explorer</em></p>
+
+## CONCLUSÃO
+
+<p>Mesmo sendo uma sprint relativamente longa, achei os assuntos selecionados muito interessante e a questão de termos tido a possibilidade de por em prática na plataforma mesmo com o game, foi divertido e imporante para a fixação do conteúdo. Não tive nenhum problema ao longo da sprint com acesso a AWS ou no consumo dos conteúdos. Isso com certeza contribuiu para terminar mais rápido e conseguir pegar bem os conteúdos trabalhados</p>
+<p>De modo geral, gostei bastante de aprender o básico e conhecer alguns serviços da AWS e da programação em nuvem em si, a qual é uma área que me enche tanto os olhos. Espero no decorrer conseguir aprofundar mais e se preparar para a grande certificação ao fim do estágio.</p>
 
 
 <hr>
