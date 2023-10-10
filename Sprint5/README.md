@@ -7,7 +7,7 @@
 
 ## VISÃO GERAL
 
-<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais fundamentos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós. Também tive a oportunidade de receber a cada curso concluído seu respectivo selo que comprova sua finalização e contribui na minha carreira de dev. Segue em sequencia todos os obtidos: </p>
+<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais fundamentos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós. Também tive a oportunidade de receber a cada curso concluído seu respectivo selo que comprova sua finalização e contribui na minha carreira de dev. Segue em sequência todos os obtidos: </p>
 
 * [__sales accredited__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint5/selosAWS/aws-partner-sales-accreditation-business.png)
 * [__cloud practitioner__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint5/selosAWS/aws-cloud-quest-cloud-practitioner.png)
