@@ -131,10 +131,10 @@
 * <p><b>Aspectos Econômicos</b> - entender como a AWS afeta os custos e de propriedade da organização e quais serviços diminuirão esses valores. Conseguir entender a relação de custo total(TCO) e seus subtipos como: despesas operacionais(OpEX); despesas de capital(CapEX) e custos de mão de obra em on-premisses.</p>
 
 * <p><b>Princípios de Design e Arquitetura da Nuvem</b> - entender os quatro princípios da arquitetura da AWS que seria:</p>
-  * <p>design à prova de falhas - como arquitetar um serviço para se adequar as falhas possíveis</p>
-  * <p>componentes desacoplados - como deixar o serviço independente</p>
-  * <p>elasticidade - como isso facilita os serviços</p>
-  * <p>pense paralelo - como dividir um trabalho em formas mais simples</p>
+  * design à prova de falhas - como arquitetar um serviço para se adequar as falhas possíveis
+  * componentes desacoplados - como deixar o serviço independente
+  * elasticidade - como isso facilita os serviços
+  * pense paralelo - como dividir um trabalho em formas mais simples
 
 ### Security and Compliance
 
