@@ -7,9 +7,9 @@
 
 ## VISÃO GERAL
 
-<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais fundamentos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós.</p>
+<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais fundamentos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós. Também tive a oportunidade de receber a cada curso concluído seu respectivo selo que comprova sua finalização e contribui na minha carreira de dev.</p>
 
-<p>  Assim, segue em sequência um resumo de cada curso e os conteúdos nele abordado para futuramente facilitar os estudos.
+<p>No geral foi muito proveitoso e de grande conteúdo aprendido. Assim, segue em sequência um resumo de cada curso e os conteúdos nele abordado para futuramente facilitar os estudos.
 </p>
 
 
@@ -33,13 +33,13 @@
 
 <p>  O valor comercial da AWS se refere ao benefícios tragos ao passar para a nuvem. Esses são considerados pilares e estão divididos em quatro: </p>
 
-* <p><b>Economia de Custo Total</b> - diz respeito à eficiência financeira que a AWS oferece. Isso com modelos de preços flexíveis e escaláveis, permitindo que as empresas paguem apenas pelos recursos que utilizam, por exemplo</p>
+* <p><b>Economia de Custo Total</b> - diz respeito à eficiência financeira que a AWS oferece. Isso com modelos de preços flexíveis e escaláveis, permitindo que as empresas paguem apenas pelos recursos que utilizam, por exemplo;</p>
 
-* <p><b>Produtividade</b> - se refere ao aumento da eficiência operacional e a produtividade das organizações</p>
+* <p><b>Produtividade</b> - se refere ao aumento da eficiência operacional e a produtividade das organizações;</p>
 
-* <p><b>Resiliência Operacional</b> - este pilar destaca a confiabilidade e disponibilidade dos serviços na nuvem</p>
+* <p><b>Resiliência Operacional</b> - este pilar destaca a confiabilidade e disponibilidade dos serviços na nuvem;</p>
 
-* <p><b>Agilidade Empresarial</b> - crucial para empresas que buscam inovação rápida e adaptação às mudanças do mercado, pois a AWS permite a implantação de rápidos aplicativos</p>
+* <p><b>Agilidade Empresarial</b> - crucial para empresas que buscam inovação rápida e adaptação às mudanças do mercado, pois a AWS permite a implantação de rápidos aplicativos.</p>
 
 ### Objeções
 
@@ -49,21 +49,74 @@
 
 * <p><b>Segurança</b> - "Meus dados não estarão seguros...</p>
 
-<p>  Aprendemos como lidar com essas e outras objeções e como tranformas isso em uma possibilidade de deixar mais claro e objetivo os benefícios dos serviços da AWs</p>
+<p>  Aprendemos como lidar com essas e outras objeções e como tranformar isso em uma possibilidade de deixar mais claro e objetivo os benefícios dos serviços da AWs</p>
 
-## DOCKER PARA DESENVOLVEDORES(COM DOCKER SWARM E KUBERNETES)
+### Venda Conjunta
 
-<p>O curso de Docker foi algo totalmente novo para mim, porém, foi muito proveitoso em todos os sentidos. Aprender sobre uma tecnologia revolucionária que tem transformado a forma como desenvolvemos, empacotamos e implantamos aplicativos com certeza será de grande proveito.
-<br>
-Assim como em python, os assuntos trabalhados foram cruciais para a resolução da <a href=https://github.com/brunnope/Repo_Compass/tree/main/Sprint4/exercicios/secao_3><strong>seção 3</strong></a>, onde estão listadas a seguir:</p>
+<p>Este último tópico desse curso abordou sobre as vantagens de ser tornar um parceiro da AWS. Os quais seriam aumenrar a receita, melhorar relacionamentos e ter outro benefícios com os serviços da AWS.</p>
+
+## AWS CLOUD QUEST: CLOUD PRACTITIONER
+
+<p>Esse curso na realidade foi um game dividido em 12 fases onde em cada uma tínhamos que usar algum ou vários serviços da AWS para resolver problemáticas de pessoas da cidade no jogo</p>
+
+<p>Foi muito legal por trabalhar o inglês(bom para a certificação) e também termos noção de como usar um pouco dos vários serviços ali disponíveis para tais impecilhos reais do dia a dia</p>
+
+<p>Nesse sentido, segue em lista um pouco do que foi trabalhado nas 12 fases do game e daquilo que foi aprendido: </p>
+
+* <p>criar e para que serve o <b>S3</b>. No caso migrei dados para o banco e pude deixar a praia apta novamente</p>
+* <p>criar instâncias <b>EC2</b>. Nesse caso mudei um server on-premisse par a nuvem e configurei todo o sistema, ram, memória e rede</p>
+* <p>mudei a configuração de um EC2 já criado e pude aumentar o o seu tipo</p>
+* <p>aprendi usar o <b>AWS Pricing Calculator</b> e como calcular o preço de migrar par a nuvem</p>
+* <p>usei e conheci o <b>VPC(Virtual Private Cloud)</b> e o configurei para aceitar apenas IPs específicos</p>
+* <p>ainda com o VPC, aprendi conectar dois para poderem compartilharem informações</p>
+* <p>criar um banco com o <b>RDS(Amazon Relational Database)</b> e configurá-lo para ter um multi ambiente e fazer backups dos arquivos</p>
+* <p>criar um banco NOSQL com o <b>DynamoDB</b> e como criar tabelas e realizar consultas</p>
+* <p>aprendi sobre o <b>IAM(Identify and Acess Management)</b>, como criar users, grupos e definir permissões de acesso para eles</p>
+* <p>desenvolvi um sistema elástico com o <b>Amazon EFS(Amazon Elastic File System)</b>, armazenei dados nele e pude compartilhar com outros servidores</p>
+* <p>usei o serviço do <b>Auto Scalling</b> no EC2 para programar a escabilidade do sevidor de acordo com horários para aumentar ou diminuir as instâncias</p>
+* <p>descobri sobre o <b>Load Balancer</b> e como usá-lo para distribuir o tráfego de entrada entre os EC2. Pude também adicionar várias zonas para um grupo escalado</p>
+
+## AWS PARTNER: ASPECTOS ECONÔMICOS DA CLOUD
+
+<p>Ness curso aprendi sobre a importância do valor comercial e do gerenciamento financeiro na nuvem para ajudar os clientes a perceberem os benefícios econômicos nela. Passei pelos dois focos desse aspecto econômico e seus pilares, onde cada um mostra em detalhes benefícios com a adoção da nuvem.<p>
+
+### Focos
+
+* <p><b>Business Value</b> - se refere ao valor comercial. Ou melhor, aqueles que falamos com o cliente para a escolha do serviço</p>
+
+* <p><b>Cloud Financial Management</b> - se refere a ajuda aos clientes a desenvolver habilidades necessárias para ter todos os benefícios ofericidos pelos serviços escolhidos</p>
+
+### Pilares
+
+* <p><b>Cost Saving(redução de custos)</b> - é um pilar tem como objetivo analisar a redução e comparar o custo total do on-premisse com a implantação na AWS. Isso como forma de convencer o cliente e por em cheque os preços reduzidos com a nuvem e deixar mais evidente as vantagens de pagar apenas pelo o que consome</p>
+
+* <p><b>Staff Productivity(produtividade da equipe)</b> - serve para mostrar o aumento de eficiência com a redução ou a eliminação de tarefas após migrar</p>
+
+* <p><b>Operational Resilience(resiliência operacional)</b> - é o benefícios conquistado com a melhoria na disponibilidade e na segurança. Mais tempo ativo, menos atividade e risco reduzido</p>
+* <p><b>Business Agility(agilidade empresarial)</b> - benefecío dos clientes poderem inovar aumentando a falha rapida enquanto reduz os ricos e custos ao testar aplicações que não o retorno esperado</p>
+* <p><b>Sustainability(sustentabilidade)</b> - diz respeito a evitar o esgotamento dos recursos naturais para manutenção do balanço ecológico. Basicamente, ao fato de como a AWS foca nesse sentido.</p>
+
+## AWS PARTNER: ACCREDITATION(TECHNICAL)
+
+<p>Este curso reforçou os conhecimentos básicos e técnicos de computação em nuvem da Amazon Web Services(AWS) já vistos e trabalhou com uma explicação melhor da infraestrutura global, serviços, soluções e migração. </p>
+
+<p>Apresentou o conceito da nuvem (já visto) e reforçou os benefícos da nuvem como agilidade, elasticidade, economia de custo e implantação global em min. Outro ponto foi mostrar os serviços oferecidos mais detalhadamente, os quais vimos a maioria no game.</p>
+
+<p>Sobre a infraestrutura, exemplificou como é. Explicou como ela é separada em regiões AZ, onde todas estão isoladas geograficamente - o que garante manter tudo conectado mesmo com várias falhas possíveis e livre de desastre naturais -, mas conectadas por fibra.</p>
+
+<p>Sobre a migração, foi apresentados os diferentes tipos e seus respectivos usos, que são: </p>
+
+* <p><b>Re-Hospedar</b> - fazer a trasferência total de um app para a nuvem</p>
+* <p><b>Realocar</b> - migrar especificamente para VMare Cloud</p>
+* <p><b>Redefinir</b> - migrar partes apenas da aplicação</p>
+* <p><b>Refatorar</b> - reimaginar totalmente um app</p>
+
+<p>Por último, foi abordado etapas de como criar nossa solução das escolhas dos serviços da nuvem para um determinado cliente que o pediu. Isso tem como etapas compreender os desafios do cliente, apresentar a solução e avaliar a solução no ambiente do cliente(prova conceito) - seria testar no ambiente da empresa os serviços e mostrar como usá-los.</p>
+
+<p>Um ponto em destaque foi a forma da apresentação dessa solução. Onde enfatizaram que deve ser focada no cliente e realizando sempre perguntas abertas para entender mais perfeitamente o caso que será migrado.</p>
 
 
 
-## ESTATÍSTICA DESCRITIVA COM PYTHON
 
-<p>Nesse curso de estatística descritiva com python passamos desde o conceito do ramo, que seria a interpretação de dados para descrever características essenciais de um conjunto de dados permitindo que seja facilmente compreensível, até em como aplicá-la com a linguagem. Nesse sentido, vimos: representanção de gráficos com a lib Matplotlib e como configurá-los; medidas centrais e de dispersão e como calculá-las com o numpy e finalizamos vendo aplicações reais.
-<br>
-No geral, foi bom explorar mais o python e ter a oportunidade de conhecer mais bibliotecas que em algum momento podem ser bem aproveitadas no nosso ramo.
-</p>
 
 <hr>
