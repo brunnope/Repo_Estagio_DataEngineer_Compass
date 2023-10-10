@@ -7,7 +7,7 @@
 
 ## VISÃO GERAL
 
-<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais fundamentos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós. Também tive a oportunidade de receber a cada curso concluído seu respectivo selo que comprova sua finalização e contribui na minha carreira de dev. Segue em sequência todos os obtidos: </p>
+<p>  Nessa sprint tivemos a oportunidade de inicar nossos estudos na AWS, mais especificamente conhecendo seus fundamentos. Passamos ao longo desses 14 dias vendo os principais conceitos da Computação em Nuvem com a Amazon Web Services, seja através de cursos teóricos ou de um jogo muito legal que pudemos por em prática os serviços aprendidos. Além de cursos voltados para a Certificação Cloud Practitioner, a qual é tão almejada por nós. Também tive a oportunidade de receber a cada curso concluído seu respectivo selo que comprova sua finalização e contribui na minha carreira de dev. Segue em sequência todos os obtidos: </p>
 
 * [__sales accredited__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint5/selosAWS/aws-partner-sales-accreditation-business.png)
 * [__cloud practitioner__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint5/selosAWS/aws-cloud-quest-cloud-practitioner.png)
@@ -24,7 +24,7 @@
 
 ### Computação em Nuvem
 
-<p>  A computação em nuvem é a entrega de recursos de TI sob demanda pela internet com pagamento conforme o uso. Podendo ser aplicada completamente(não 100%) à uma aplicação ou em partes<p>
+<p>  A computação em nuvem é a entrega de recursos de TI sob demanda pela internet com pagamento conforme o uso. Podendo ser aplicada completamente(não 100%) à uma aplicação ou em partes.<p>
 <p>  Seus serviços podem ser divididos em seis categorias, como listadas abaixo: </p>
 
 * Computação 
@@ -58,20 +58,20 @@
 
 ### Venda Conjunta
 
-<p>Este último tópico desse curso abordou sobre as vantagens de ser tornar um parceiro da AWS. Os quais seriam aumenrar a receita, melhorar relacionamentos e ter outro benefícios com os serviços da AWS.</p>
+<p>Este último tópico desse curso abordou sobre as vantagens de ser tornar um parceiro da AWS. Os quais seriam aumentar a receita, melhorar relacionamentos e ter outro benefícios com os serviços da AWS.</p>
 
 ## AWS CLOUD QUEST: CLOUD PRACTITIONER
 
-<p>Esse curso na realidade foi um game dividido em 12 fases onde em cada uma tínhamos que usar algum ou vários serviços da AWS para resolver problemáticas de pessoas da cidade no jogo</p>
+<p>Esse curso na realidade foi um game dividido em 12 fases onde em cada uma tínhamos que usar algum ou vários serviços da AWS para resolver problemáticas de pessoas da cidade no jogo.</p>
 
-<p>Foi muito legal por trabalhar o inglês(bom para a certificação) e também termos noção de como usar um pouco dos vários serviços ali disponíveis para tais impecilhos reais do dia a dia</p>
+<p>Foi muito legal por trabalhar o inglês(bom para a certificação) e também termos noção de como usar um pouco dos vários serviços ali disponíveis para tais impecilhos reais do dia a dia.</p>
 
 <p>Nesse sentido, segue em lista um pouco do que foi trabalhado nas 12 fases do game e daquilo que foi aprendido: </p>
 
 * <p>criar e para que serve o <b>S3</b>. No caso migrei dados para o banco e pude deixar a praia apta novamente</p>
-* <p>criar instâncias <b>EC2</b>. Nesse caso mudei um server on-premisse par a nuvem e configurei todo o sistema, ram, memória e rede</p>
+* <p>criar instâncias <b>EC2</b>. Nesse caso mudei um server on-premisse para a nuvem e configurei todo o sistema, ram, memória e rede</p>
 * <p>mudei a configuração de um EC2 já criado e pude aumentar o o seu tipo</p>
-* <p>aprendi usar o <b>AWS Pricing Calculator</b> e como calcular o preço de migrar par a nuvem</p>
+* <p>aprendi usar o <b>AWS Pricing Calculator</b> e como calcular o preço de migrar para a nuvem</p>
 * <p>usei e conheci o <b>VPC(Virtual Private Cloud)</b> e o configurei para aceitar apenas IPs específicos</p>
 * <p>ainda com o VPC, aprendi conectar dois para poderem compartilharem informações</p>
 * <p>criar um banco com o <b>RDS(Amazon Relational Database)</b> e configurá-lo para ter um multi ambiente e fazer backups dos arquivos</p>
@@ -93,19 +93,19 @@
 
 ### Pilares
 
-* <p><b>Cost Saving(redução de custos)</b> - é um pilar tem como objetivo analisar a redução e comparar o custo total do on-premisse com a implantação na AWS. Isso como forma de convencer o cliente e por em cheque os preços reduzidos com a nuvem e deixar mais evidente as vantagens de pagar apenas pelo o que consome</p>
+* <p><b>Cost Saving(redução de custos)</b> - este pilar tem como objetivo analisar a redução e comparar o custo total do on-premisse com a implantação na AWS. Isso como forma de convencer o cliente e por em cheque os preços reduzidos com a nuvem e deixar mais evidente as vantagens de pagar apenas pelo o que consome</p>
 
 * <p><b>Staff Productivity(produtividade da equipe)</b> - serve para mostrar o aumento de eficiência com a redução ou a eliminação de tarefas após migrar</p>
 
-* <p><b>Operational Resilience(resiliência operacional)</b> - é o benefícios conquistado com a melhoria na disponibilidade e na segurança. Mais tempo ativo, menos atividade e risco reduzido</p>
-* <p><b>Business Agility(agilidade empresarial)</b> - benefecío dos clientes poderem inovar aumentando a falha rapida enquanto reduz os ricos e custos ao testar aplicações que não o retorno esperado</p>
+* <p><b>Operational Resilience(resiliência operacional)</b> - são os benefícios conquistado com a melhoria na disponibilidade e na segurança. Mais tempo ativo, menos atividade e risco reduzido</p>
+* <p><b>Business Agility(agilidade empresarial)</b> - benefecío dos clientes poderem inovar aumentando a falha rapida enquanto reduz os ricos e custos ao testar aplicações que não dão o retorno esperado</p>
 * <p><b>Sustainability(sustentabilidade)</b> - diz respeito a evitar o esgotamento dos recursos naturais para manutenção do balanço ecológico. Basicamente, ao fato de como a AWS foca nesse sentido.</p>
 
 ## AWS PARTNER: ACCREDITATION(TECHNICAL)
 
 <p>Este curso reforçou os conhecimentos básicos e técnicos de computação em nuvem da Amazon Web Services(AWS) já vistos e trabalhou com uma explicação melhor da infraestrutura global, serviços, soluções e migração. </p>
 
-<p>Apresentou o conceito da nuvem (já visto) e reforçou os benefícos da nuvem como agilidade, elasticidade, economia de custo e implantação global em min. Outro ponto foi mostrar os serviços oferecidos mais detalhadamente, os quais vimos a maioria no game.</p>
+<p>Apresentou o conceito da nuvem (já visto) e reforçou os benefícos dela, como agilidade, elasticidade, economia de custo e implantação global em minutos. Outro ponto foi mostrar os serviços oferecidos mais detalhadamente, os quais vimos a maioria no game.</p>
 
 <p>Sobre a infraestrutura, exemplificou como é. Explicou como ela é separada em regiões AZ, onde todas estão isoladas geograficamente - o que garante manter tudo conectado mesmo com várias falhas possíveis e livre de desastre naturais -, mas conectadas por fibra.</p>
 
@@ -130,15 +130,16 @@
 
 * <p><b>Aspectos Econômicos</b> - entender como a AWS afeta os custos e de propriedade da organização e quais serviços diminuirão esses valores. Conseguir entender a relação de custo total(TCO) e seus subtipos como: despesas operacionais(OpEX); despesas de capital(CapEX) e custos de mão de obra em on-premisses.</p>
 
-* <p><b>Princípios de Design e Arquitetura da Nuvem</b> - entender os quatro princípios da arquitetura da AWS que seria:</p>
-  * design à prova de falhas - como arquitetar um serviço para se adequar as falhas possíveis
-  * componentes desacoplados - como deixar o serviço independente
-  * elasticidade - como isso facilita os serviços
-  * pense paralelo - como dividir um trabalho em formas mais simples
+* **Princípios de Design e Arquitetura da Nuvem**
+  * Entender os quatro princípios da arquitetura da AWS:
+    1. **Design à prova de falhas** - como arquitetar um serviço para se adequar às falhas possíveis
+    2. **Componentes desacoplados** - como deixar o serviço independente
+    3. **Elasticidade** - como isso facilita os serviços
+    4. **Pense paralelo** - como dividir um trabalho em formas mais simples
 
 ### Security and Compliance
 
-* <p><b>Modelo de Responsabilidade Compartilhada</b> - saber quem é o responsável pelo o que na AWS. Que cliente tem a responsabilidade pela segurança "na" nuvem e a AWS "da" nuvem.</p>
+* <p><b>Modelo de Responsabilidade Compartilhada</b> - saber quem é o responsável pelo o quê na AWS. Que o cliente tem a responsabilidade pela segurança "na" nuvem e a AWS "da" nuvem.</p>
 * <p><b>Conceitos de Conformidade e Segurança</b> - saber se determinado serviço está em conformidade com outro e conhecer as plataformas para isso como a <em>AWS Artifact</em> e <em>AWS CloudTrial</em></p>
 * <p><b>Capacidades de Gerenciamento de Acesso</b> - conhecer as capacidades de acesso no gerenciamento e quais serviços fazem isso como o <em>AWS Identity and Access Management(IAM)</em></p>
 * <p><b>Recursos para Suporte de Segurança</b> - conhecer onde podemos achar o suporte para conhecer os serviços de segurança. Como exemplo tem o <em>AWS Marketplace</em> - achar softwares de terceiro - e <em>AWS Knowledge</em> - obter informações sobre segurança com AWS</p>
@@ -158,8 +159,7 @@
 
 ## CONCLUSÃO
 
-<p>Mesmo sendo uma sprint relativamente longa, achei os assuntos selecionados muito interessante e a questão de termos tido a possibilidade de por em prática na plataforma mesmo com o game, foi divertido e imporante para a fixação do conteúdo. Não tive nenhum problema ao longo da sprint com acesso a AWS ou no consumo dos conteúdos. Isso com certeza contribuiu para terminar mais rápido e conseguir pegar bem os conteúdos trabalhados</p>
+<p>Mesmo sendo uma sprint relativamente longa, achei os assuntos selecionados muito interessante e a questão de termos tido a possibilidade de por em prática na plataforma os serviços oferecidos com o game, muito divertido e importante para a fixação do conteúdo. Não tive nenhum problema ao longo da sprint com acesso a AWS ou no consumo dos conteúdos. Isso com certeza contribuiu para terminá-la mais rápida e conseguir pegar bem os conteúdos trabalhados</p>
 <p>De modo geral, gostei bastante de aprender o básico e conhecer alguns serviços da AWS e da programação em nuvem em si, a qual é uma área que me enche tanto os olhos. Espero no decorrer conseguir aprofundar mais e se preparar para a grande certificação ao fim do estágio.</p>
-
 
 <hr>
