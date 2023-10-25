@@ -18,7 +18,7 @@ data e os desafios das empresas nas análises de dados atualmente. Ainda, vi ser
 específicos que serão listados a seguir: 
 </p>
 
-* <p><b>Amazon Kinesis Stream</b> - coleta, processa e analisa dados em tempo real gerando isights. Temos os produtores (gravam os dados) e os consumidores. Os resultados são perdidos em 24h ou 7 dias, assim, cabe armazená-los.</p>
+* <p><b>Amazon Kinesis Stream</b> - coleta, processa e analisa dados em tempo real gerando insights. Temos os produtores (gravam os dados) e os consumidores. Os resultados são perdidos em 24h ou 7 dias, assim, cabe armazená-los.</p>
 
 * <p><b>Amazon Kinesis Analytics</b> - coleta, processa e analisa dados de streaming em tempo real com norma SQL. Usa uma base de dados em steam e tem a capacidade de mandar os insights para onde queira.</p>
 
@@ -34,9 +34,8 @@ específicos que serão listados a seguir:
 
 * <p><b>Amazon IOT Analytics</b> - serviço usado para análise de massivos dados em IOT. Processa, gera valor, armazena, analisa e visualiza.</p>
 
-<p>No geral foi muito proveitoso e de grande conteúdo aprendido. Assim, segue em sequência um resumo de cada curso e os conteúdos nele abordado para futuramente facilitar os estudos.
+<p>No geral foi muito proveitoso e de grande conteúdo aprendido. Assim, segue em sequência os exercícios que colocaram em prática algumas dessas ferramentas da AWS.
 </p>
-
 
 ## Lab AWS S3
 
