@@ -1,7 +1,7 @@
 ![Imagem_Compass](https://s3.sa-east-1.amazonaws.com/remotar-assets-prod/company-profile-covers/cl7god9gt00lx04wg4p2a93zt.jpg)
 
 <div align="center">
-  <h1>SPRINT 5</h1>
+  <h1>SPRINT 6</h1>
 </div>
 <hr>
 
