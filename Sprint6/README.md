@@ -34,8 +34,8 @@ específicos que serão listados a seguir:
 
 * <p><b>Amazon IOT Analytics</b> - serviço usado para análise de massivos dados em IOT. Processa, gera valor, armazena, analisa e visualiza.</p>
 
-<p>No geral foi muito proveitoso e de grande conteúdo aprendido. Assim, segue em sequência os [__exercícios da AWS__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint6/exerciciosAWS) que colocaram em prática algumas dessas ferramentas da AWS.
-</p>
+<p>No geral foi muito proveitoso e de grande conteúdo aprendido. Assim, segue em sequência os <a href="https://github.com/brunnope/Repo_Compass/tree/main/Sprint6/exerciciosAWS">exercícios da AWS</a> que colocaram em prática algumas dessas ferramentas da AWS.</p>
+
 
 ## Lab AWS S3
 
