@@ -59,11 +59,11 @@ Segue as etapas: </p>
 * [__Criando Banco de Dados__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/criandoBancoDeDados.png)
 * [__Testando Tabela Criada__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/criandoTabela.png)
 
-* **Querie Pedida** - Entender os quatro princípios da arquitetura da AWS:
+* **Querie Pedida**:
   1. [__Parte 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/queriePedida.png)
   2. [__Parte 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/queriePedida2.png)
   
-* **Resultados** - Entender os quatro princípios da arquitetura da AWS:
+* **Resultados**:
   1. [__Parte 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/resultados.png)
   2. [__Parte 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint6/exerciciosAWS/LabAWS_Athena/resultados2.png)
 
