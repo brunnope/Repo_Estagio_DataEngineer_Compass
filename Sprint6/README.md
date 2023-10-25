@@ -8,10 +8,12 @@
 ## Resumo
 
 <p>   No primeiro curso aprendi sobre o processo de análise e avaliação que consiste no processo de compilar, processar e analisar os dados para que possa usá-los para tomar decisões. Revisei os tipos de dados e possíveis ferramentas da AWS para cada um, como: Amazon RDS ou Amazon Redshift para dados estruturados e Amazon DynamoDB para semi e não estruturados, por exemplo. Olhei em específico alguns serviços focados em Data & Analytics e aprofundei no processamento de dados, seja eles em batch (processamento de maneira periódica ou agendada - Amazon EMR) ou em Stream (dados em tempo real - Amazon Kinisiss). Finalizando, foi apresentado o conceito de ETL que consiste na extração, transformação e carregamento. Onde o AWS Glue é uma ótima ferramenta para esse processo.
-<br>
+</p>
+<p>
     No segundo revisei coisas já vistas como o conceito de big
 data e os desafios das empresas nas análises de dados atualmente. Ainda, vi serviços focados para a migração de dados para a nuvem, como: AWS Direct Conect ou S3 Transfer Acceleration.
-<br>
+</p>
+<p>
   Daqui adiante foram cursos rápidos focados em serviços
 específicos que serão listados a seguir: 
 </p>
