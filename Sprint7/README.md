@@ -12,19 +12,15 @@
 ### Tarefa 1
 
 * **Programas**:
-  1. [__Ator Maior Media__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/atorMaiorMedia.py)
-  2. [__Ator Maior Numero Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/atorMaiorNumeroFilmes.py)
-
+  1. [__Ator Maior Média__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/atorMaiorMedia.py)
+  2. [__Ator Maior Número Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/atorMaiorNumeroFilmes.py)
   3. [__Filmes Mais Frequentes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/filmesMaisFrequencia.py)
-
   4. [__Média Número de Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/resolucoes/mediaNumFilmes.py)
 
 * **Saídas Programas**:
-  1. [__Ator Maior Media__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/atorMaiorMediaFilme.png)
-  2. [__Ator Maior Numero Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/atorMaiorNumFilmes.png)
-
+  1. [__Ator Maior Média__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/atorMaiorMediaFilme.png)
+  2. [__Ator Maior Número Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/atorMaiorNumFilmes.png)
   3. [__Filmes Mais Frequentes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/frequenciaFilmes.png)
-
   4. [__Média Número de Filmes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/Exercicios/tarefa1/saidas/mediaNumFilmes.png)
   
 ### Tarefa 2
@@ -42,19 +38,16 @@
 
 ## Desafio - Parte 1
 
-<p> Nessa primeira parte do desafio fizemos um processo ETL usando a lib Boto3, a qual permite se comunicar e realizar operações na nossa conta da AWS. Nesse sentido, usamos para subit dois arquivos csv para nosso bucket s3.</p>
+<p> Nessa primeira parte do desafio fizemos um processo ETL usando a lib Boto3, a qual permite se comunicar e realizar operações na nossa conta da AWS. Nesse sentido, usamos para subir dois arquivos csv para nosso bucket s3.</p>
 
 * [__Programa Principal__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/app.py)
-
 * [__Dockerfile__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/Dockerfile)
-
-* [__.gitignore__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/.gitignore) <p> - criado para não subir para o git arquivos tão grandes e permite a leitura e transferência para o container</p>
+* [__.gitignore__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/.gitignore) - criado para não subir para o git arquivos tão grandes e permite a leitura e transferência para o container
 
 * **Etapas Udemy**:
-  1. [__Primeira parte do app__]()
-  2. [__Segunda parte__]()
-  3. [__Criando Imagem__]()
-  4. [__Executando Container__]()
-
+  1. [__Primeira parte do app__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/etapas/appBoto.png)
+  2. [__Segunda parte__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/etapas/appBoto2.png)
+  3. [__Criando Imagem__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/etapas/criandoImagem.png)
+  4. [__Executando Container__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/DesafioParte1ETL/etapas/executandoContainer.png)
 
 <hr>
