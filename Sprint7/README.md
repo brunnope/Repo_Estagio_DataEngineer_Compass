@@ -7,7 +7,7 @@
 
 ## Exercícios
 
-<p>Nos exercícios colocamos em prática a manipulação de dados com o pandas e numpy - tarefa 1 - e criamos uma aplicação de contagem de palavras com Spark</p>
+<p>Nos exercícios colocamos em prática a manipulação de dados com o pandas e numpy - tarefa 1 - e criamos uma aplicação de contagem de palavras com Spark - tarefa 2. </p>
 
 ### Tarefa 1
 
