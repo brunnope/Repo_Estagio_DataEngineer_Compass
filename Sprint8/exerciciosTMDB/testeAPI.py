@@ -1,9 +1,10 @@
 import requests
 import pandas as pd
-
+import os
 from IPython.display import display
 
-api_key = "e3cd69f0bfe2927b56b7999439667b6e"
+
+api_key = os.environ["api_key"]
 
 url = f"https://api.themoviedb.org/3/movie/top_rated?api_key={api_key}&language=pt-BR"
 
