@@ -26,8 +26,8 @@
 * [__Aplicativo Lambda__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/desafioParte2/lambda.py)
 * [__Exemplo json__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/desafioParte2/exemplo_resul.json.json)
 * **Prints**:
-  1. [__permissões role__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/permissoes_funcao)
-  2. [__log execução lambda__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/execucao_log)
-  3. [__arquivos json gerados__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/arquivos_json)
+  * [__permissões role__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/permissoes_funcao)
+  * [__log execução lambda__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/execucao_log)
+  * [__arquivos json gerados__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/arquivos_json)
 
 <hr>
