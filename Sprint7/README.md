@@ -50,10 +50,9 @@
   * [__Contagem Número de Linhas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/imprimirNumLinhas.txt)
   * [__Imprimir Contagem de Nomes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/imprimirContagemNomes.txt)
   * [__Nome Feminino Maior Registro__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeFemininoMaisRegistros.txt)
-  * [__Nome Masculino Maior Registro__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeFemininoMaisRegistros.txt)
+  * [__Nome Masculino Maior Registro__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeMasculinoMaisRegistros.txt)
   * [__Total Registros__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/contagemRegistros.txt)
-  * [__Nomes em Maiúsculos Particionados__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomesMaiusculosParticonados.txt)
-
+  * [__Nomes em Maiúsculos Particionados__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomesMaiusculosParticionados.txt)
 
 
 ## Desafio - Parte 1
