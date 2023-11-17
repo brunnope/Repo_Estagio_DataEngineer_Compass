@@ -34,7 +34,27 @@
 
 ## Laboratório AWS
 
-<p>  Aguardando a liberação de acesso na criação do job</p>
+<p> Nesse laboratório, aprendemos a criar, rodar e subir arquivos para o s3 utilizando o glue. Segue os passos e os códigos de cada job criado:</p>
+
+* **Etapas Udemy**:
+  1. [__S3 criado__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/s3Criado.png)
+  2. [__Role criada__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/funcaoCriada.png)
+  3. [__DataBase Criado__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/criacaoDataBase.png) - [__Administrador__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/administradorDataBase.png)
+  4. [__Criação Job__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/jobCriado.png) - [__Executados__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/jobsCriados.png)
+  5. [__Resultados jobs__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/arquivosGeradosJobs.png)
+  6. [__Crawler Criado e Executado__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/evidencias/crawlerExecutado.png)
+
+* **Códigos**:
+  * [__Imprimir Schema__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/imprimirSchema.txt)
+  * [__Nomes em Maiúsculo__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeMaiusculo.txt)
+  * [__Contagem Número de Linhas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/imprimirNumLinhas.txt)
+  * [__Imprimir Contagem de Nomes__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/imprimirContagemNomes.txt)
+  * [__Nome Feminino Maior Registro__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeFemininoMaisRegistros.txt)
+  * [__Nome Masculino Maior Registro__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomeFemininoMaisRegistros.txt)
+  * [__Total Registros__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/contagemRegistros.txt)
+  * [__Nomes em Maiúsculos Particionados__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint7/LaboratoriosAWS_Glue/codigos/nomesMaiusculosParticonados.txt)
+
+
 
 ## Desafio - Parte 1
 
