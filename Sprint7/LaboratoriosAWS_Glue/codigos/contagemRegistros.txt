@@ -1,0 +1,52 @@
+import sys
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+from awsglue.dynamicframe import DynamicFrame
+
+## @params: [JOB_NAME]
+args = getResolvedOptions(sys.argv, ['JOB_NAME','S3_INPUT_PATH','S3_TARGET_PATH'])
+
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+source_file = args['S3_INPUT_PATH']
+target_path = args['S3_TARGET_PATH']
+
+df = glueContext.create_dynamic_frame.from_options(
+    "s3",
+    {
+        "paths": [
+            source_file
+        ]
+    },
+    "csv",
+    {"withHeader": True, "separator":","},
+)
+
+df_spark = df.toDF()
+
+# Registra o DataFrame como uma tabela temporária para usar o Spark SQL
+df_spark.createOrReplaceTempView("minha_tabela_temporaria")
+
+resul = spark.sql("SELECT ano, sum(total) as total_registros FROM minha_tabela_temporaria GROUP BY ano ORDER BY ano LIMIT 10")
+
+#imprimi resultado
+print(resul.collect())
+
+#transforma novamente para um dynamicframe
+resul_dynamic_frame = DynamicFrame.fromDF(resul, glueContext, "resul_dynamic_frame")
+
+glueContext.write_dynamic_frame.from_options(
+    frame=resul_dynamic_frame,
+    connection_type="s3",
+    connection_options={"path": target_path},
+    format="json"
+)
+
+job.commit()
