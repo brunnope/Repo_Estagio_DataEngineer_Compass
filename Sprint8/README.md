@@ -30,4 +30,21 @@
   * [__log execução lambda__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/execucao_log)
   * [__arquivos json gerados__](https://github.com/brunnope/Repo_Compass/tree/main/Sprint8/desafioParte2/prints/arquivos_json)
 
+## Exercícios Spark Batch
+
+<p>Nesses exercícios de spark pude relembrar códigos já antes desenvolvidos para leitura e escrita de arquivos com python, como também aprendi a manipular a lib "names" para geração de nomes completos aleatórios, algo que foi importante para criar um base de dados que permitiu sua manipulação e extração de dados com spark.</p>
+
+<p>No geral gostei bastante pois contribuiu no aprendizado de spark e do processo ETL no geral. Assim segue o que foi desenvolvido na tarefa 3 e 4:</p>
+
+#### Tarefa 3
+* **Programas**:
+  * [__Warm Up 1__]()
+  * [__Warm Up 2__]()
+  * [__Laboratórios__]()
+* **Saídas**:
+  * [__Warm Up 1__]()
+  * [__Warm Up 2__]()
+  * [__Laboratórios__]()
+
+
 <hr>
