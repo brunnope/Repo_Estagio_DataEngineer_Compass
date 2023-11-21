@@ -38,13 +38,19 @@
 
 #### Tarefa 3
 * **Programas**:
-  * [__Warm Up 1__]()
-  * [__Warm Up 2__]()
-  * [__Laboratórios__]()
+  * [__Warm Up 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/warmUp1.py)
+  * [__Warm Up 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/warmUp2.py)
+  * [__Laboratórios__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/laboratorio.py)
 * **Saídas**:
-  * [__Warm Up 1__]()
-  * [__Warm Up 2__]()
-  * [__Laboratórios__]()
+  * [__Warm Up 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp.png)
+  * [__Warm Up 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp2.png) - [__Arquivo Gerado CSV__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/Animais.csv)
+  * [__Laboratórios__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/Captura%20de%20tela%202023-11-20%20150357.png) - Não coloquei o arquivo em si por causa do tamanho que excede
 
+### Tarefa 4
 
+* **Programa**:
+  * [__App__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/app.py)
+* **Saídas**:
+  * [__Warm Up 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp.png)
+  * [__Warm Up 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp2.png) - [__Arquivo Gerado CSV__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/Animais.csv)
 <hr>
