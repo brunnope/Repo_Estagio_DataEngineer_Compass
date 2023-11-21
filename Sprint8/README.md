@@ -36,7 +36,7 @@
 
 <p>No geral gostei bastante pois contribuiu no aprendizado de spark e do processo ETL no geral. Assim segue o que foi desenvolvido na tarefa 3 e 4:</p>
 
-#### Tarefa 3
+### Tarefa 3
 * **Programas**:
   * [__Warm Up 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/warmUp1.py)
   * [__Warm Up 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/warmUp2.py)
