@@ -48,9 +48,17 @@
 
 ### Tarefa 4
 
+<p>As saídas coloquei apenas aquele que o passo pedia para printar no console...</p>
+
 * **Programa**:
   * [__App__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/app.py)
 * **Saídas**:
-  * [__Warm Up 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp.png)
-  * [__Warm Up 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/warmUp2.png) - [__Arquivo Gerado CSV__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa3/saidas/Animais.csv)
+  * [__Passo 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo1.png)
+  * [__Passo 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo2.png)
+  * [__Passo 6__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo6.png)
+  * [__Passo 7__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo7.png)
+  * [__Passo 8__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo8.png)
+  * [__Passo 9__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo8.png) - mesma saída
+  * [__Passo 10__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosSparkBatch/tarefa4/saidas/passo10.png)
+
 <hr>
