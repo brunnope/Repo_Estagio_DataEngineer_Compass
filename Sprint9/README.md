@@ -10,12 +10,12 @@
 <p>Realizado em duas tarefas onde aprendi a como modelar os dados relacionalmente(tarefa 1) e de maneira dimensional(tarefa 2).</p> 
 
 * **Tarefa 1**:
-  * [__teste 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosTMDB/testeAPI.py)
-  * [__teste 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosTMDB/testeAPI2.py)
+  * [__Código SQL__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/tarefa1/Script.sql)
+  * [__Modelo Lógico__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/tarefa1/diagramaLogico.png)
 
 * **Tarefa 2**:
-  * [__teste 1__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosTMDB/resultados/testeAPI.png)
-  * [__teste 2__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint8/exerciciosTMDB/resultados/testeAPI2.png)
-
+  * [__Código SQL__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/tarefa2/Script-1.sql)
+  * [__Modelo Lógico__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/tarefa2/diagramaLogico.png)
+  * [__Saída__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/tarefa2/saida.png)
 
 <hr>
