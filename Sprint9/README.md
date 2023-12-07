@@ -22,6 +22,6 @@ Na tarefa 2 (modelagem dimensional), pensando em responder minha pergunta que se
 * **Tarefa 2**:
   * [__Código SQL__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/Script-1.sql)
   * [__Modelo Lógico__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/diagramaLogico.png)
-  * [__Saída__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/saida.png)
+  * [__Resultado__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/saida.png)
 
 <hr>
