@@ -1,5 +1,3 @@
-#código de limpeza dos dados
-
 import sys
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
@@ -7,6 +5,7 @@ from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
 from awsglue.dynamicframe import DynamicFrame
+from pyspark.sql.functions import expr
 
 ## @params: [JOB_NAME]
 args = getResolvedOptions(sys.argv, ['JOB_NAME', 'S3_INPUT_PATH', 'S3_TARGET_PATH'])
@@ -26,10 +25,10 @@ df = spark.read.option("multiline", "true").json(source_file).repartition(1)
 # Converte para DynamicFrame
 df_dynamic_frame = DynamicFrame.fromDF(df, glueContext, "dynamic_frame")
 
-# Filtra os registros onde a coluna "imdb_id" não é nula
+# Filtra os registros para pegar apenas os primeiros gêneros que sejam drama ou Romance
 df_processado = Filter.apply(
     frame=df_dynamic_frame,
-    f=lambda x: x["imdb_id"] is not None
+    f=lambda x: x["genres"][0]["name"].startswith("Drama") or x["genres"][0]["name"].startswith("Romance")
 )
 
 # Escreve o DynamicFrame resultante no S3 em formato Parquet

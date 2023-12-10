@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS fato_movie
+WITH (
+  format='PARQUET', 
+  external_location='s3://desafioaws/Refined/fato_movie'
+) AS
+select
+    t.id,
+    t.original_title,
+    t.original_language,
+    t.genres[1].name as genre,
+    t.title,
+    t.overview,
+    t.status,
+    t.release_date,
+  CASE 
+    WHEN t.belongs_to_collection IS NOT NULL AND t.belongs_to_collection.name IS NOT NULL THEN t.belongs_to_collection.name
+    ELSE NULL
+  END AS collection_name
+FROM "refined"."trustedarquivo" t;

@@ -24,4 +24,46 @@ Na tarefa 2 (modelagem dimensional), pensando em responder minha pergunta que se
   * [__Modelo Lógico__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/diagramaLogico.png)
   * [__Resultado__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/saida.png)
 
+
+## Desafio Parte 3
+
+<p>Realizado em três tarefas onde colocamos em prática no desafio o que aprendemos na atividade anterior. Aqui ficamos responsáveis por limpar os dados e criar nosso camada Trusted e Refined persistindo elas no S3.</p>
+
+### Tarefa 1
+<p>
+No processamento da Trusted (tarefa 1) não realizei muitas limpezas nos dados pois os mesmos não tinham colunas ou linhas inteiramente nulas. Porém, serviu para salvar com o encoding certo e deixar o arquivo final com as palavras escritas corretamente. Também, apliquei um filtro (o qual se baseia minha análise) para pegar apenas os filmes onde seu primeiro gênero era romance ou drama, assim, pegando apenas os filmes relevantes para mim. Nesse sentido, segue o código do job criado, o arquivo parquet salvo na Trusted, como também o mesmo arquivo em JSON para verificar o formato.
+</p>
+
+* [__JOB__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/Script-1.sql)
+* [__Arquivo Parquet__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/diagramaLogico.png)
+* [__Arquivo JSON__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/saida.png)
+
+### Tarefa 2 e 3
+
+<p>
+Na tarefa 2 (modelagem de dados da Refined) e 3 (processamento da Refined) optei por realizar juntas no Athena, ou seja, criei a fato e suas dimensões ao mesmo tempo que salvei como parquet na pasta Refined no S3.
+</p> 
+<p>
+Para criação da fato e dimensões pensando na minha análisei - filmes de drama ou romance brasileiros lançados entre 2010 e 2023 - pensei em responder as seguintes perguntas:
+</p>
+
+* Qual gênero foi o mais popular nesse período e por que?
+* Qual empresa(companhia) mais produziu filmes desses gêneros nesse tempo?
+* Qual gênero e filme teve uma melhor relação receita e custo?
+
+Nesse sentido, realizei os seguintes códigos no Athena - puxando a tabela principal da Trusted criada anteriormente - e em sequência como ficou na camada Refined após a execução de cada uma:
+
+* **Criação Fato e Dimensões**:
+  * [__Dimensão ProductionCompany__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
+  * [__Dimensão NumericalData__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+  * [__Fato Movie__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+
+* **Camada Refined**:
+  * [__Fatos e Dimensões__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
+  * [__Exemplo Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+
+Após o processo, as novas tabelas criadas ficam disponíveis no Athena e consequentemente para uso no QuickSight, como mostrado a seguir:
+
+* [__Novas Tabelas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
+* [__Exemplo Consulta na Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
 <hr>

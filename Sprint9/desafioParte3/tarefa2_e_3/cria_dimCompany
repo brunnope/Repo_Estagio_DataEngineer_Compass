@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS dim_ProductionCompany
+WITH (
+  format='PARQUET', 
+  external_location='s3://desafioaws/Refined/dim_ProductionCompany'
+) AS
+SELECT 
+  t.id AS id_filme,
+  CASE 
+    WHEN t.production_companies IS NOT NULL AND CARDINALITY(t.production_companies) > 0 AND t.production_companies[1].name IS NOT NULL 
+    THEN t.production_companies[1].name
+    ELSE NULL
+  END AS first_company_name
+FROM "refined"."trustedarquivo" t;

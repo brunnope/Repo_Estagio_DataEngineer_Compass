@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS dim_numericalData
+WITH (
+  format='PARQUET', 
+  external_location='s3://desafioaws/Refined/dim_numericalData'
+) AS
+SELECT t.id as movie_id,
+  t.vote_average,
+  t.popularity,
+  t.budget,
+  t.revenue,
+  t.vote_count
+FROM "refined"."trustedarquivo" t;
