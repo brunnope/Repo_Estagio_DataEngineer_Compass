@@ -64,6 +64,6 @@ Nesse sentido, realizei as seguintes queries no Athena - puxando da tabela princ
 
 Após o processo, as novas tabelas criadas ficam disponíveis no Athena e consequentemente para uso no QuickSight, como mostrado a seguir:
 
-* [__Novas Tabelas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
+* [__Novas Tabelas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/evidencias/fatosDimensoes.png)
 * [__Exemplo Consulta na Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/evidencias/consultaFatoMovie.png)
 <hr>
