@@ -34,9 +34,9 @@ Na tarefa 2 (modelagem dimensional), pensando em responder minha pergunta que se
 No processamento da Trusted (tarefa 1) não realizei muitas limpezas nos dados pois os mesmos não tinham colunas ou linhas inteiramente nulas. Porém, serviu para salvar com o encoding certo e deixar o arquivo final com as palavras escritas corretamente. Também, apliquei um filtro (o qual se baseia minha análise) para pegar apenas os filmes onde seu primeiro gênero era romance ou drama, assim, pegando apenas os filmes relevantes para mim. Nesse sentido, segue o código do job criado, o arquivo parquet salvo na Trusted, como também o mesmo arquivo em JSON para verificar o formato.
 </p>
 
-* [__JOB__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/Script-1.sql)
-* [__Arquivo Parquet__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/diagramaLogico.png)
-* [__Arquivo JSON__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa2/saida.png)
+* [__JOB__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa1/jobCriado.py)
+* [__Arquivo Parquet__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa1/dadosProcessados.parquet)
+* [__Arquivo JSON__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa1/arqExemplo.json)
 
 ### Tarefa 2 e 3
 
@@ -51,19 +51,19 @@ Para criação da fato e dimensões pensando na minha análisei - filmes de dram
 * Qual empresa(companhia) mais produziu filmes desses gêneros nesse tempo?
 * Qual gênero e filme teve uma melhor relação receita e custo?
 
-Nesse sentido, realizei os seguintes códigos no Athena - puxando a tabela principal da Trusted criada anteriormente - e em sequência como ficou na camada Refined após a execução de cada uma:
+Nesse sentido, realizei as seguintes queries no Athena - puxando da tabela principal da Trusted criada anteriormente - e em sequência como ficou na camada Refined após a execução de cada uma:
 
 * **Criação Fato e Dimensões**:
-  * [__Dimensão ProductionCompany__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
-  * [__Dimensão NumericalData__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
-  * [__Fato Movie__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+  * [__Dimensão ProductionCompany__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/cria_dimCompany)
+  * [__Dimensão NumericalData__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/cria_dimNumericalData)
+  * [__Fato Movie__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/cria_fatoMovie)
 
 * **Camada Refined**:
-  * [__Fatos e Dimensões__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
-  * [__Exemplo Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+  * [__Fatos e Dimensões__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/evidencias/camadaRefined.png) - persistido na camada Refined
+  * [__Exemplo Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/evidencias/fatoMovie.png) - arquivo criado dentro da pasta Fato com os dados
 
 Após o processo, as novas tabelas criadas ficam disponíveis no Athena e consequentemente para uso no QuickSight, como mostrado a seguir:
 
 * [__Novas Tabelas__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/Script.sql)
-* [__Exemplo Consulta na Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/modelagemDados/tarefa1/diagramaLogico.png)
+* [__Exemplo Consulta na Fato__](https://github.com/brunnope/Repo_Compass/blob/main/Sprint9/desafioParte3/tarefa2_e_3/evidencias/consultaFatoMovie.png)
 <hr>
