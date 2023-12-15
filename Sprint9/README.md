@@ -44,12 +44,14 @@ No processamento da Trusted (tarefa 1) não realizei muitas limpezas nos dados p
 Na tarefa 2 (modelagem de dados da Refined) e 3 (processamento da Refined) optei por realizar juntas no Athena, ou seja, criei a fato e suas dimensões ao mesmo tempo que salvei como parquet na pasta Refined no S3.
 </p> 
 <p>
-Para criação da fato e dimensões pensando na minha análisei - filmes de drama ou romance brasileiros lançados entre 2010 e 2023 - pensei em responder as seguintes perguntas:
+Para criação da fato e dimensões pensando na minha análise - filmes de drama ou romance brasileiros lançados entre 2010 e 2023 - pensei em responder uma pergunta maior que seria: "Qual gênero é o preferido, drama ou romance ?". A partir desses questionamentos, posso visualizar a respota através dos dados e responder outras perguntas por consequência que respondem a pergunta maior, como:
 </p>
 
-* Qual gênero foi o mais popular nesse período e por que?
+* Qual gênero teve mais filmes?
+* Qual gênero teve mais votos?
+* Qual gênero teve uma melhor média de votos?
+* Qual filme foi o mais popular?
 * Qual empresa(companhia) mais produziu filmes desses gêneros nesse tempo?
-* Qual gênero e filme teve uma melhor relação receita e custo?
 
 Nesse sentido, realizei as seguintes queries no Athena - puxando da tabela principal da Trusted criada anteriormente - e em sequência como ficou na camada Refined após a execução de cada uma:
 
